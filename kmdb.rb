@@ -70,12 +70,123 @@
 # Use `Model.destroy_all` code.
 # TODO!
 
+
+movie.destroy_all
+person.destroy_all
+role. destroy_all
 # Generate models and tables, according to the domain model
 # TODO!
 
 # Insert data into your database that reflects the sample data shown above
 # Do not use hard-coded foreign key IDs.
 # TODO!
+
+
+movie1=Movie.new
+movile1.title = "Batman Begins"
+movie1.year_released= "2005"
+movie1.rating= "PG-13"
+movie1.person_id=1
+movie1.save
+
+movie2=Movie.new
+movile2.title = "The Dark Knight"
+movie2.year_released= "2008"
+movie2.rating= "PG-13"
+movie2.person_id=1
+movie2.save
+
+movie3=Movie.new
+movie3.title = "The Dark Knight Rises"
+movie3.year_released = "2012"
+movie3.rating = "PG-13"
+movie3.person_id = 1
+movie3.save
+
+person1= Person.new
+person1.name = "Christopher Nolan"
+person1.save
+
+person2= Person.new
+person2.name = "Christian Bale"
+person2.save
+
+person3= Person.new
+person3.name = "Michael Caine"
+person3.save
+
+person4= Person.new
+person4.name = "Liam Neeson"
+person4.save
+
+person5= Person.new
+person5.name = "Katie Holmes"
+person5.save
+
+person6= Person.new
+person6.name = "Gary Oldman"
+person6.save
+
+person7= Person.new
+person7.name = "Heath Ledger"
+person7.save
+
+person8= Person.new
+person8.name = "Aaron Eckhart"
+person8.save
+
+person9= Person.new
+person9.name = "Maggie Gyllenhaal"
+person9.save
+
+person10= Person.new
+person10.name = "Tom Hardy"
+person10.save
+
+person11= Person.new
+person11.name = "Joseph Gordon-Levitt"
+person11.save
+
+person12= Person.new
+person12.name = "Anne Hathaway"
+person12.save
+
+role1=Role.new
+role1.movie_id = "1" 
+role1.person_id = "2"
+role1.character_name = "Bruce Wanye"
+role.1save
+
+role2=Role.new
+role2.movie_id = "1" 
+role2.person_id = "3"
+role2.character_name = "Alfred"
+role2.save
+
+role3=Role.new
+role3.movie_id = "1" 
+role3.person_id = "4"
+role3.character_name = "Ra's Al Ghul"
+role3.save
+
+role4=Role.new
+role4.movie_id = "1" 
+role4.person_id = "5"
+role4.character_name = "Rachel Dawes"
+role4.save
+
+role5=Role.new
+role5.movie_id = "1" 
+role5.person_id = "6"
+role5.character_name = "Commissioner Gordon"
+role5.save
+
+role5=Role.new
+role5.movie_id = "2" 
+role5.person_id = "7"
+role5.character_name = "Commissioner Gordon"
+role5.save
+
 
 # Prints a header for the movies output
 puts "Movies"
@@ -84,6 +195,8 @@ puts ""
 
 # Query the movies data and loop through the results to display the movies output
 # TODO!
+
+
 
 # Prints a header for the cast output
 puts ""
