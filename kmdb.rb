@@ -248,6 +248,8 @@ puts ""
 # Query the movies data and loop through the results to display the movies output
 # TODO!
 
+ Movie.where ("person_id < [2]")
+
 
 
 # Prints a header for the cast output
