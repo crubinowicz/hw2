@@ -73,14 +73,14 @@
 
 movie.destroy_all
 person.destroy_all
-role. destroy_all
+role.destroy_all
+
 # Generate models and tables, according to the domain model
 # TODO!
 
 # Insert data into your database that reflects the sample data shown above
 # Do not use hard-coded foreign key IDs.
 # TODO!
-
 
 movie1=Movie.new
 movile1.title = "Batman Begins"
@@ -181,12 +181,65 @@ role5.person_id = "6"
 role5.character_name = "Commissioner Gordon"
 role5.save
 
-role5=Role.new
-role5.movie_id = "2" 
-role5.person_id = "7"
-role5.character_name = "Commissioner Gordon"
-role5.save
+role6=Role.new
+role6.movie_id = "2" 
+role6.person_id = "2"
+role6.character_name = "Bruce Wayne"
+role6.save
 
+role7=Role.new
+role7.movie_id = "2" 
+role7.person_id = "8"
+role7.character_name = "Joker"
+role7.save
+
+role8=Role.new
+role8.movie_id = "2" 
+role8.person_id = "9"
+role8.character_name = "Harvey Dent"
+role8.save
+
+role9=Role.new
+role9.movie_id = "2" 
+role9.person_id = "3"
+role9.character_name = "Alfred"
+role9.save
+
+role10=Role.new
+role10.movie_id = "2" 
+role10.person_id = "5"
+role10.character_name = "Rachel Dawes"
+role10.save
+
+role11=Role.new
+role11.movie_id = "3" 
+role11.person_id = "2"
+role11.character_name = "Bruce Wayne"
+role11.save
+
+role12=Role.new
+role12.movie_id = "3" 
+role12.person_id = "6"
+role12.character_name = "Commissioner Gordon"
+role12.save
+
+role13=Role.new
+role13.movie_id = "3" 
+role13.person_id = "10"
+role13.character_name = "Bane"
+role13.save
+
+role14=Role.new
+role14.movie_id = "3" 
+role14.person_id = "11"
+role14.character_name = "John Blake"
+role14.save
+
+role15=Role.new
+role15.movie_id = "3" 
+role15.person_id = "12"
+role15.character_name = "Selina Kyle"
+role15.save
 
 # Prints a header for the movies output
 puts "Movies"
